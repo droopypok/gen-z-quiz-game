@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Screen</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="bgm.autoplay()">
+    <div class="container">
+      <div class="startScreenLayout" id="startScreen">
+        <h2 id="gameTitle">Who wants to be a</h2>
+        <h1 id="gameTitle" onmouseover="audio.play()">Gen-Z</h1>
+        <a href="game.html" class="btn" id="gameStartBtn">Start</a>
+        <a href="leaderboard.html" class="btn" id="highScoreBtn">High Scores</a>
+        <audio autoplay loop src="./audio/homebgm.mp3"></audio>
+      </div>
+    </div>
+  </body>
+</html>
