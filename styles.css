@@ -36,8 +36,6 @@ h1:hover {
 h2 {
   font-size: 8rem;
   text-shadow: 0 0 5px white;
-  margin-left: 10px;
-  text-align: center;
 }
 
 #gameTitle {
@@ -83,4 +81,26 @@ h2 {
   padding: 20px;
   font-weight: bold;
   color: black;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+#end-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+#saveScoreBtn {
+  border: none;
 }

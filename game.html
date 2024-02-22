@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who wants to be a Gen-Z</title>
+    <link rel="stylesheet" href="game.css" />
+    <script defer src="game.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="questionCounterContainer">1/2</div>
+      <div class="questionContainer">This is a question</div>
+      <div class="timerContainer">15s</div>
+      <div class="scoreCounter" id="score">0pts</div>
+      <div
+        class="answerContainer"
+        id="answer1"
+        data-number="1"
+        onmouseover="btnHoverSound.play()"
+      >
+        Choice1
+      </div>
+      <div
+        class="answerContainer"
+        id="answer2"
+        data-number="2"
+        onmouseover="btnHoverSound.play()"
+      >
+        Choice2
+      </div>
+      <div
+        class="answerContainer"
+        id="answer3"
+        data-number="3"
+        onmouseover="btnHoverSound
+        .play()"
+      >
+        Choice3
+      </div>
+      <div
+        class="answerContainer"
+        id="answer4"
+        data-number="4"
+        onmouseover="btnHoverSound.play()"
+      >
+        Choice4
+      </div>
+      <audio autoplay loop src="./audio/gamebgm.mp3"></audio>
+
+      <script>
+        const btnHoverSound = new Audio();
+        btnHoverSound.src = "./audio/btnHover.wav";
+      </script>
+    </div>
+  </body>
+</html>
