@@ -36,6 +36,8 @@ h1:hover {
 h2 {
   font-size: 8rem;
   text-shadow: 0 0 5px white;
+  margin-left: 10px;
+  text-align: center;
 }
 
 #gameTitle {
