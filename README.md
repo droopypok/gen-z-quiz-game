@@ -1,18 +1,16 @@
-# Gen-Z Quiz Game
+# Who wants to be a Gen-Z
 
-In a growing population of Gen-Zs, can you keep up with the latest trends and buzzwords? The Gen-Z Quiz Game will test your skills and knowledge, pitting you against the most popular Gen-Z slangs out there. Will you slay, or be slayed?
+In a growing population of Gen-Zs, can you keep up with the latest trends and buzzwords? Your skills and knowledge will be put to the test, pitting you against the most popular Gen-Z slangs out. <br><br>Will you **slay**, or be **slain**?
 
 # Screenshot
 
-<img src="url to your image on imgur">
-<img src="url to your image on imgur">
+<img src="https://imgur.com/gallery/6JQpoiC">
 
 # Technologies Used
 
 - JavaScript
 - HTML
 - CSS
-- CardStarter CSS Library
 
 # Getting Started
 
