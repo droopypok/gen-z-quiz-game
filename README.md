@@ -24,3 +24,13 @@ In a growing population of Gen-Zs, can you keep up with the latest trends and bu
 
 - Future enhancement one...
 - Future enhancement two...
+
+
+###Credits: 
+Start Screen BGM - One Day of Vlogger: Royalty Free Music By 500Audio from https://500audio.com/free-music
+Game BGM - Walk Slowly and Relax Everyday: Royalty Free Music By 500Audio from https://500audio.com/free-music
+Button Hover SFX - https://freesound.org/people/moogy73/sounds/425728/?
+Button Click SFX - https://freesound.org/people/Christopherderp/sounds/333042/
+ThatsRubbish SFX - https://freesound.org/people/RoivasUGO/sounds/233579/
+WhatAreYouDoing SFX - https://freesound.org/people/pyro13djt/sounds/331911/
+UnimpressiveYay SFX - https://freesound.org/people/xtrgamr/sounds/239594/
