@@ -4,7 +4,8 @@ In a growing population of Gen-Zs, can you keep up with the latest trends and bu
 
 # Screenshot
 
-<img src="https://imgur.com/gallery/6JQpoiC">
+![Screenshot 2024-02-23 at 12 29 36 PM](https://github.com/droopypok/gen-z-quiz-game/assets/158001887/95b099d7-12a7-4d1e-ae86-989f5283dc88)
+
 
 # Technologies Used
 
