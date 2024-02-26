@@ -25,29 +25,31 @@
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 8rem;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .end-form-container {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  max-width: 40rem;
+  max-width: 50rem;
 }
 
 #end-text {
-  font-size: 3.5rem;
+  font-size: 6rem;
   color: #fff;
   text-align: center;
-  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 input {
   margin-bottom: 1rem;
-  width: 100em;
+  width: 15em;
   padding: 1rem;
   font-size: 1.8rem;
   text-align: center;
@@ -60,30 +62,37 @@ input::placeholder {
 }
 
 #saveScoreBtn {
-  padding: 1.5em;
+  padding: 0.8em;
   background: linear-gradient(
     90deg,
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
   color: black;
-  font-weight: bold;
+  margin: 10px 10px;
+  font-family: serif;
+  font-size: 3rem;
 }
 
-#saveScoreBtn:hover {
+.btn:hover {
   cursor: pointer;
-  scale: 1.01;
+  scale: 1.1;
+}
+
+#end {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .btn {
   font-size: 3rem;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  padding: 0.5em;
+  padding: 1rem;
   color: black;
   background-color: white;
-  width: 100%;
   border-radius: 50px;
   margin: 10px 0;
+  width: 50%;
+  text-align: center;
 }
