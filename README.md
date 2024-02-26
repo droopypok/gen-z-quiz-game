@@ -18,12 +18,12 @@ In a growing population of Gen-Zs, can you keep up with the latest trends and bu
 
 # Getting Started
 
-[Click to Play Connect Four!](your deployment url here)
+[Click to play the game!](https://droopypok.github.io/gen-z-quiz-game/)
 
 # Next Steps
 
-- Future enhancement one...
-- Future enhancement two...
+- Adding more questions
+- Radomising choice boxes
 
 
 ### Credits: 
@@ -34,3 +34,11 @@ Button Click SFX - https://freesound.org/people/Christopherderp/sounds/333042/ <
 ThatsRubbish SFX - https://freesound.org/people/RoivasUGO/sounds/233579/ <br>
 WhatAreYouDoing SFX - https://freesound.org/people/pyro13djt/sounds/331911/ <br>
 UnimpressiveYay SFX - https://freesound.org/people/xtrgamr/sounds/239594/ <br>
+
+### References:
+Learn HTML Forms: https://www.youtube.com/watch?v=2O8pkybH6po&ab_channel=BroCode <br>
+Local Storage: https://www.youtube.com/watch?v=-ZRDZyUjEEI&t=282s&ab_channel=OpenJavaScript <br>
+Game Code Reference 1: https://www.youtube.com/watch?v=PBcqGxrr9g8&t=136s&ab_channel=GreatStack
+Game Code Reference 2: https://www.youtube.com/watch?v=riDzcEQbX6k&t=1397s&ab_channel=WebDevSimplified
+CSS Flexbox Grid: https://www.youtube.com/watch?v=3elGSZSWTbM&t=907s&ab_channel=KevinPowell
+Correct Answer Quiz Selection: https://stackoverflow.com/questions/62594459/how-to-check-the-correct-answer-javascript-4-buttons
