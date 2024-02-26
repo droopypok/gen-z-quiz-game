@@ -90,16 +90,16 @@ const question = document.querySelector(".questionContainer");
 
 //Music for Game
 const correctMusic = new Audio();
-correctMusic.src = "../audio/unimpressedyay.wav";
+correctMusic.src = "audio/unimpressedyay.wav";
 
 const wrongMusic = new Audio();
-wrongMusic.src = "../audio/thatsrubbish.wav";
+wrongMusic.src = "audio/thatsrubbish.wav";
 
 const offTimerMusic = new Audio();
-offTimerMusic.src = "../audio/whatrudoing.wav";
+offTimerMusic.src = "audio/whatrudoing.wav";
 
 const btnClick = new Audio();
-btnClick.src = "../audio/btnClick.wav";
+btnClick.src = "audio/btnClick.wav";
 
 let score = 0;
 let questionCounter = 0;
@@ -122,7 +122,7 @@ const newQuestion = () => {
   // conditional statement to end after no more questions
   if (availableQuestions.length === 0) {
     localStorage.setItem("mostRecentScore", score);
-    return window.location.assign("./replay.html");
+    return window.location.assign("replay.html");
     // stop the game > go to end game screen but how lol (HELP ME!!)
   }
   timer.innerText = "15s";
