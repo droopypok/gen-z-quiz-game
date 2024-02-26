@@ -80,7 +80,7 @@ const questions = [
   },
 ];
 
-// Global Variables needed
+// Selectors
 const MAX_QUESTIONS = questions.length;
 const questionsCounter = document.querySelector(".questionCounterContainer");
 const scoreCounter = document.querySelector(".scoreCounter"); // score.innerText works yay
@@ -101,6 +101,7 @@ offTimerMusic.src = "audio/whatrudoing.wav";
 const btnClick = new Audio();
 btnClick.src = "audio/btnClick.wav";
 
+// Changin Variables in the game
 let score = 0;
 let questionCounter = 0;
 let timerCounter = 15;
@@ -108,7 +109,7 @@ let currentQuestion = {};
 let availableQuestions = [];
 let acceptingInputs = false;
 
-// to start the game display question & choices automatically still need to update choice text
+// to start the game + new question & choices automatically
 const startGame = () => {
   questionCounter = 0;
   timerCounter = 15;
@@ -119,18 +120,16 @@ const startGame = () => {
 
 // to generate new questions
 const newQuestion = () => {
-  // conditional statement to end after no more questions
   if (availableQuestions.length === 0) {
     localStorage.setItem("mostRecentScore", score);
     return window.location.assign("replay.html");
-    // stop the game > go to end game screen but how lol (HELP ME!!)
   }
+  //timerCounter 15 second to 0s, when 0s reaches, display green for correct answer same as clicking
   timer.innerText = "15s";
   startTimerFunction(16);
   timer.classList.remove("timerLow");
 
   // Essentially, select from available questions -> store it in current questions -> output it in innerText
-  // -> remove question asked from availableQuestion (WORKING)
   const getQuestionNumber = Math.floor(
     Math.random() * availableQuestions.length
   );
@@ -138,21 +137,21 @@ const newQuestion = () => {
   question.innerText = currentQuestion.question;
   availableQuestions.splice(getQuestionNumber, 1);
 
-  // Input answers into answer buttons (WORKING)
+  // Input answers into answer buttons
   choices.forEach((option) => {
     const number = option.dataset["number"];
     option.innerText = currentQuestion["choice" + number];
   });
 
-  //questionCounter increment per click (WORKING)
+  //questionCounter increment per click
   questionCounter++;
   questionsCounter.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
-  //timerCounter 15 second to 0s, when 0s reaches, display green for correct answer same as clicking
-
+  //to accept answers when generating new questions
   acceptingInputs = true;
 };
 
+// checking answers function
 choices.forEach((options) => {
   options.addEventListener("click", (e) => {
     btnClick.play();

@@ -48,13 +48,14 @@ h1 {
 }
 
 input {
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
   width: 15em;
   padding: 1rem;
   font-size: 1.8rem;
   text-align: center;
   border: none;
   color: black;
+  border-radius: 50px;
 }
 
 input::placeholder {
@@ -93,6 +94,7 @@ input::placeholder {
   background-color: white;
   border-radius: 50px;
   margin: 10px 0;
-  width: 50%;
+  width: 431px;
   text-align: center;
+  box-shadow: 0 0 10px 2px;
 }
